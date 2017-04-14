@@ -146,6 +146,9 @@ public class T_JSON {
                     }
 
                     case "T_JSON": {
+                        if (value == null) {
+                            break;
+                        }
                         jsonObj.put(name, ((T_JSON) value).toJSON());
                         break;
                     }
