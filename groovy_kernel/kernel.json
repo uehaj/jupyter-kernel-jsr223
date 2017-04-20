@@ -1,0 +1,11 @@
+{
+  "argv": ["/home/jupyteruser/.sdkman/candidates/groovy/current/bin/groovy",
+           "-classpath",
+           "/groovy_kernel/lib/*",
+           "-e",
+           "org.jupyterkernel.kernel.Session.main(args)",
+           "-k", "groovy",
+           "-f", "{connection_file}"],
+ "display_name": "Groovy 2.4.10",
+ "language": "groovy"
+}
